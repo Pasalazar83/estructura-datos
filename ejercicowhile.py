@@ -4,12 +4,13 @@ def control_ingreso():
     personasingresada=0
 
     while personasingresada <= nummax: 
-        ticket= input("muestre numero de boleto:   o salir para no dejar pasar")
-        personaingresada=+1
-    if ticket== personasingresada:
-        print("persona ingresada. total", "puede pasar")
+        ticket_val= input("boleto valido")
+    if ticket_val== personasingresada:
+        print("ingresa persona")
+        personasingresada= personasingresada=+1
     else:
      print("persona no puede pasar", nummax=personasingresada) 
+print("cupo lleno")
         
         
 
