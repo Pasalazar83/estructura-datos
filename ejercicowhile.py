@@ -1,7 +1,7 @@
 control= 0 
 cupo= int(input("ingrese cupo"))
    
-while control <= cupo: 
+while control < cupo: 
     ticket_val= input("boleto valido")
     if ticket_val== "1":
         print("ingresa persona")
