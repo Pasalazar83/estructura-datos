@@ -10,7 +10,7 @@ while control < cupo:
         print("persona no puede pasar")
    
 print("cupo lleno")
-        
+         
         
 
         
