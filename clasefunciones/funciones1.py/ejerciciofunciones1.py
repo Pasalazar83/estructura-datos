@@ -8,3 +8,4 @@ def calculofactorial ( numero:int)->str|int:
         resultado = resultado * n
     return resultado
     
+print (calculofactorial(int(input("ingrese el numero a calcular"))))
